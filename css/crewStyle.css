@@ -1,0 +1,120 @@
+.container {
+    font-size: small;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #daecf7;
+    text-align: center;
+}
+
+#logo {
+    width: 300px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.panelBlue {
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #b6eef9;
+}
+
+.panelGrey {
+    display: inline-block;
+    font-size: large;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e7e5e5;
+}
+
+.panelGreen {
+    display: block;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #b2f79b;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+
+li {
+    text-align: left;
+    font-size: medium;
+    font-family: Verdana, sans-serif;
+    width: 85%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e6e3e3;
+    margin: auto;
+    /*center the list */
+}
+
+.mainButton {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #51eb1d;
+    margin: auto;
+    border: #ffffff 1px solid;
+}
+
+.mainButton:hover {
+    background-color: #1d8303;
+    color: white;
+    cursor: pointer;
+}
+
+.fieldDesc {
+    justify-content: center;
+    font-size: medium;
+    width: 50%;
+    background-color: #339f18;
+    color: white;
+    border: #ffffff 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+input[type=text],
+[type=password],
+[type=email] {
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #6a6767;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    resize: vertical;
+}
+
+.smHeader {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
